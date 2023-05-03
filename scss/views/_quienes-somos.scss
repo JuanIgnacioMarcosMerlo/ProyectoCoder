@@ -1,0 +1,32 @@
+.conteiner__quienes-somos{
+    padding-top: 170px;
+    padding-bottom: 30px;
+    .tittle__clauvana{
+        font-size: 3em;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .historia{
+      .historia__clauvana{
+        padding: 0 20px;
+        font-size: 1em;
+        color:#000;
+        font-weight: 100;
+        display: flex;
+        flex-wrap: wrap;
+        }
+      .agradecimiento__clauvana{
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 1.2em;
+        font-weight: 600;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        } 
+    }
+}

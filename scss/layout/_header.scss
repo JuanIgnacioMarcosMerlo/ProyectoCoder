@@ -1,0 +1,92 @@
+header{
+    .header{
+        position: fixed;
+        width: 100%;
+        z-index: 10000;
+        .header-conteiner{
+            background-color: $color-header-secundario;
+            padding:.5em;
+            display: flex;
+            justify-content: center;
+            .header-conteiner__tittle{
+                visibility: hidden;
+            }
+        }
+        .header-nav{
+            padding:.5em;
+            background-color: $color-header-primario;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .header-nav__left{
+                width: 25vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .header-nav__list{
+                    list-style: none;
+                    display: flex;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                    .header-nav__items{
+                        .header-nav__items-a{
+                            color: #000000;
+                            font-weight: 600;
+                            text-decoration: none;
+                        }
+                        .header-nav__items-a:hover{
+                            color: $color-header-secundario;
+                        }
+                    }
+                }
+            }
+            .header-nav__logo{
+                width: 25vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .header-nav__picture{
+                    .header-nav__img{
+                        width: 85px;
+                        height: 85px;
+                        border-radius: 360px;
+                    }
+                }
+            }
+            .header-nav__right{
+                width: 25vw;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 10px;
+                .header-nav__search{
+                    .header-nav__search-input{
+                        display: none;
+                        background-color: $color-header-secundario;
+                        border-radius: 20px;
+                        padding: 5px 10px;
+                        border: #000000;
+                        color: #000000;
+                    }
+                    .header-nav__search-input:focus{
+                        outline:0;
+                    }
+                }
+                .header-nav__buy{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    width: 25px;
+                    height: 25px;
+                    .header-nav__cart{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

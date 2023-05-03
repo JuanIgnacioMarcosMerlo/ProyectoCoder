@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clauvana</title>
+  <link rel="stylesheet" href="../../styles/styles.css" />
+  <link rel="icon" href="../../img/clauvana.ico.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="header-conteiner">
+        <h1 class="header-conteiner__tittle">Clauvana</h1>
+      </div>
+      <div class="header-nav">
+          <div class="header-nav__left">
+            <ul class="header-nav__list">
+              <li class="header-nav__items"><a href="../producto.html" class="header-nav__items-a">Producto</a></li>
+              <li class="header-nav__items"><a href="../quienes-somos.html" class="header-nav__items-a">Quienes somos</a></liclass>
+              <li class="header-nav__items"><a href="../contacto.html" class="header-nav__items-a">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="header-nav__logo">
+            <a href="../../index.html">
+              <picture class="header-nav__picture">
+                <img src="../../img/logoclauvana.png" alt="logo-de-la-marca" class="header-nav__img">
+              </picture>
+            </a>
+          </div>
+          <div class="header-nav__right">
+            <div class="header-nav__search">
+              <form action="">
+                <label for="search"></label>
+                <input type="search" placeholder="Buscar" id="search" class="header-nav__search-input">
+              </form>
+            </div>
+            <div class="header-nav__buy">
+              <a href="../../index.html">
+                <picture>
+                  <img src="../../img/carrito.png" alt="carrito" class="header-nav__cart">
+                </picture>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="portada__producto-especifico">
+      <div class="producto-especifico__conteiner">
+        <div class="producto-especifico__img">
+          <picture class="producto-especifico-pic">
+            <img src="../../img/productos/20230228_151828.jpg" alt="blusa" class="img__producto"/>
+            <!-- <img src="../../img/productos/20230228_152018.jpg" alt="clusa" class="img__producto"> -->
+          </picture>
+        </div>
+        <div class="especificaciones">
+          <div class="nombre__prenda">
+            <h2 class="prenda__titulo">Blusa Angie</h2>
+          </div>
+          <div class="prenda_price">
+            <h3 class="price"><strong class="str__prince"> $ 12000 </strong></h3>
+          </div>
+          <div class="coutas__prenda">
+            <img src="../../img/credito.png" alt="credito" class="img__credito">
+            <span class="txt__prenda"><strong class="str__prenda">6 cuotas sin interés</strong> de $2000</span>
+          </div>
+          <div class="oferta__prenda">
+            <img src="../../img/dinero.png" alt="efectivo" class="img__dinero">
+            <span class="txt__prenda"><strong class="str__prenda">10% de descuento</strong> pagando con Transferencia o
+              depósito bancario</span>
+          </div>
+          <div class="input__prenda">
+            <div class="input__color">
+              <form action="" class="form__color">
+                <label for="color-prenda" class="label__color">Color</label>
+                <select id="color-prenda" class="select__color">
+                  <option value="azul">azul</option>
+                  <option value="rojo">rojo</option>
+                  <option value="verde">verde</option>
+                </select>
+              </form>
+            </div>
+            <div class="input__talle">
+              <form action="" class="form__talle">
+                <label for="talle-prenda" class="label__talle">Talle</label>
+                <select id="talle-prenda" class="select__talle">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </form>
+            </div>
+          </div>
+          <div class="input__cantidad">
+            <form action="" class="form__cantidad">
+              <label for="cantidad" class="label__cantidad">Cantidad</label>
+              <input type="number" id="cantidad" class="input__cantidad"/>
+            </form>
+          </div>
+          <div class="agregar__carrito">
+            <form action="" class="agregar__carrito-form">
+              <label for="enviar"></label>
+              <input type="submit" value="AGREGAR AL CARRITO" id="enviar" class="agregar__carrito-btn"/>
+            </form>
+          </div>
+          <div class="descripcion__prenda">
+            <span class="txt__descripcion">Prenda elaborada con tela importada de Crochet</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="otros__productos">
+      <div class="otros__conteiner">
+        <h2 class="otros__tittle">PRODUCTOS RELACIONADOS</h2>
+      </div>
+      <div class="mas__productos">
+        <div class="clothes__items">
+          <picture class="clothes__pic">
+            <img src="../../img/productos/20230228_155355.jpg" alt="campera" class="clothes__img">
+            <a href="../../index.html" class="clothes__a">Comprar</a>
+          </picture>
+          <div class="clothes__description">
+            <h3 class="clothes__description-tittle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, voluptas.</h3>
+            <span class="clothes__description-price">Precio</span>
+            <span class="clothes__description-offer"><strong>6</strong> cuotas sin interes <strong>Precio</strong></span>
+          </div>
+        </div>
+        <div class="clothes__items">
+          <picture class="clothes__pic">
+            <img src="../../img/productos/20230228_161244.jpg" alt="pantalon" class="clothes__img">
+            <a href="../../index.html" class="clothes__a">Comprar</a>
+          </picture>
+          <div class="clothes__description">
+            <h3 class="clothes__description-tittle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, voluptas.</h3>
+            <span class="clothes__description-price">Precio</span>
+            <span class="clothes__description-offer"><strong>6</strong> cuotas sin interes <strong>Precio</strong></span>
+          </div>
+        </div>
+        <div class="clothes__items">
+          <picture class="clothes__pic">
+            <img src="../../img/productos/20230228_150017.jpg" alt="camisa" class="clothes__img">
+            <a href="../../index.html" class="clothes__a">Comprar</a>
+          </picture>
+          <div class="clothes__description">
+            <h3 class="clothes__description-tittle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, voluptas.</h3>
+            <span class="clothes__description-price">Precio</span>
+            <span class="clothes__description-offer"><strong>6</strong> cuotas sin interes <strong>Precio</strong></span>
+          </div>
+        </div>
+        <div class="clothes__items">
+          <picture class="clothes__pic">
+            <img src="../../img/productos/20230228_151514.jpg" alt="blusas" class="clothes__img">
+            <a href="../../index.html" class="clothes__a">Comprar</a>
+          </picture>
+          <div class="clothes__description">
+            <h3 class="clothes__description-tittle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, voluptas.</h3>
+            <span class="clothes__description-price">Precio</span>
+            <span class="clothes__description-offer"><strong>6</strong> cuotas sin interes <strong>Precio</strong></span>
+          </div>
+        </div>
+        <div class="clothes__items">
+          <picture class="clothes__pic">
+            <img src="../../img/productos/20230228_155246.jpg" alt="campera" class="clothes__img">
+            <a href="../../index.html" class="clothes__a">Comprar</a>
+          </picture>
+          <div class="clothes__description">
+            <h3 class="clothes__description-tittle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, voluptas.</h3>
+            <span class="clothes__description-price">Precio</span>
+            <span class="clothes__description-offer"><strong>6</strong> cuotas sin interes <strong>Precio</strong></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-icons">
+      <ul class="footer-icons__list">
+        <li class="footer-icons__items">
+          <a href="https://instagram.com/clau_vana" target="_blank" rel="noopener">
+            <picture>
+              <img src="../../img/instagram.png" alt="instagram" class="footer-icons__btn" />
+            </picture>
+          </a>
+        </li>
+        <li class="footer-icons__items">
+          <a href="https://www.facebook.com/clauvana/?locale=es_LA" target="_blank" rel="noopener">
+            <picture>
+              <img src="../../img/facebook.png" alt="facebook" class="footer-icons__btn" />
+            </picture>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-nav">
+      <ul class="footer-nav__list">
+        <li>
+          <a href="../producto.html" class="footer-nav__items">Producto</a>
+        </li>
+        <li>
+          <a href="../quienes-somos.html" class="footer-nav__items">Quienes somos</a>
+        </li>
+        <li>
+          <a href="../contacto.html" class="footer-nav__items">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-contacs">
+      <ul class="footer-contacs__list">
+        <li class="footer-contacs__items">
+          <span class="footer-contacs__content">
+            <img src="../../img/whatsapp.png" alt="whatsapp" class="footer-contacs__img">
+            <a href="https://wa.me/5491156210006" target="_blank" class="footer-contacs__a" rel="noopener"> 5491156210006</a>
+          </span>
+        </li>
+        <li class="footer-contacs__items">
+          <span class="footer-contacs__content">
+            <img src="../../img/email.png" alt="email" class="footer-contacs__img">
+            <a href="mailto:clauvana.ind@gmail.com" target="_blank" class="footer-contacs__a"> clauvana.ind@gmail.com</a>
+          </span>
+        </li>
+        <li class="footer-contacs__items">
+          <span class="footer-contacs__content">
+            <img src="../../img/ubicacion.png" alt="ubicacion" class="footer-contacs__img"> Calle 36 N° 5531 Plátanos
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-cards">
+      <ul class="footer-cards__list">
+        <li>
+          <img src="../../img/cards/visa@2x.png" alt="visa" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/mastercard@2x.png" alt="mastercard" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/amex@2x.png" alt="american-express" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/diners@2x.png" alt="diners" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/banelco@2x.png" alt="banelco" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/cabal@2x.png" alt="cabal" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/tarjeta-naranja@2x.png" alt="tarjeta-naranja" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/tarjeta-shopping@2x.png" alt="tarjeta-shopping" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/mercadopago@2x.png" alt="mercadopago" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/argencard@2x.png" alt="argencard" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/cencosud@2x.png" alt="cencosud" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/pagofacil@2x.png" alt="pagofacil" class="footer-cards__img" />
+        </li>
+        <li>
+          <img src="../../img/cards/rapipago@2x.png" alt="rapipago" class="footer-cards__img" />
+        </li>
+      </ul>
+    </div>
+    <div class="footer-derechos">
+      <ul class="footer-derechos__list">
+        <li><span>© Copyright Clauvana - 2023</span></li>
+        <li><span>Todos los derechos reservados.</span></li>
+        <li><span>Defensa de los y las consumidores. Para reclamar <a href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario" target="_blank" rel="noopener">ingrese aquí</a></span></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="body__border-top"></div>
+  <div class="body__border-right"></div>
+  <div class="body__border-left"></div>
+  <div class="body__border-bottom"></div>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+.portada__contacto{
+    padding-top: 170px;
+    padding-bottom: 30px;
+    .conteiner__tittle{
+        .tittle__contacto{
+            padding-bottom: 30px;
+            font-size: 3em;
+            font-weight: 600;
+            @include centrar-row;
+        }
+    }
+    .atencion-publico{
+        .contacto__atencion{
+            font-size: 1.1em;
+            @include centrar-row;
+        }
+    }
+    .contacto__redes{
+        .contacto__list{
+            list-style: none;
+            padding: 40px;
+            @include centrar-column;
+            gap:20px;
+            .contacto__items{
+                display: flex;
+                align-items: center;
+                .contacto__pic{
+                    .contacto__img{
+                    height: 25px;
+                    width: 25px;
+                    }    
+                }
+                .contactos__aa{
+                    text-decoration: none;
+                    color: #000;
+                    .contacto__span{
+                        padding: 0 0 0 10px;
+                    }
+                }
+            }
+        }
+    }
+    .contactos__formulario{
+        padding: 10px;
+        @include centrar-column;
+        .contacto__formulario-items{
+            @include centrar-column;
+            gap: 10px;
+            .contacto__input{
+                padding: 10px;
+                border: 1px rgba(146, 146, 146, 0.634) solid;
+                border-radius: 10px;
+            }
+            .contacto__input:focus{
+                outline: 0;
+            }
+            .btn__contacto{
+                background-color: #fff;
+                color: $color-header-secundario;
+            }
+            .btn__contacto:hover{
+                background-color: $color-header-secundario;
+                color: #fff;
+            }
+        }
+    }
+}
