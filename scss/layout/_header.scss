@@ -22,13 +22,14 @@ header{
             .header-nav__left{
                 width: 25vw;
                 display: flex;
-                justify-content: center;
+                justify-content: flex-start;
                 align-items: center;
                 .header-nav__list{
                     list-style: none;
                     display: flex;
-                    gap: 20px;
+                    flex-direction: column;
                     flex-wrap: wrap;
+                    gap: 20px;
                     .header-nav__items{
                         .header-nav__items-a{
                             color: #000000;
@@ -58,7 +59,7 @@ header{
                 width: 25vw;
                 height: 40px;
                 display: flex;
-                justify-content: center;
+                justify-content: flex-end;
                 align-items: center;
                 flex-wrap: wrap;
                 gap: 10px;

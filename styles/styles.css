@@ -38,14 +38,15 @@ header .header .header-nav {
 header .header .header-nav .header-nav__left {
   width: 25vw;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 header .header .header-nav .header-nav__left .header-nav__list {
   list-style: none;
   display: flex;
-  gap: 20px;
+  flex-direction: column;
   flex-wrap: wrap;
+  gap: 20px;
 }
 header .header .header-nav .header-nav__left .header-nav__list .header-nav__items .header-nav__items-a {
   color: #000000;
@@ -70,7 +71,7 @@ header .header .header-nav .header-nav__right {
   width: 25vw;
   height: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
@@ -627,7 +628,12 @@ footer .footer-derechos .footer-derechos__list {
   padding-top: 10em;
   padding-bottom: 5em;
 }
-.conteiner__quienes-somos .tittle__clauvana {
+.conteiner__quienes-somos .conteiner-tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner__quienes-somos .conteiner-tittle .tittle__clauvana {
   padding-inline: 0.5em 0.5em;
   padding-bottom: 30px;
   font-size: 3em;
@@ -636,6 +642,7 @@ footer .footer-derechos .footer-derechos__list {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  width: 70%;
 }
 .conteiner__quienes-somos .historia .historia__clauvana {
   padding: 0 20px;
@@ -660,7 +667,13 @@ footer .footer-derechos .footer-derechos__list {
   padding-top: 10em;
   padding-bottom: 5em;
 }
+.portada__contacto .conteiner__tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .portada__contacto .conteiner__tittle .tittle__contacto {
+  width: 70%;
   padding-bottom: 30px;
   font-size: 3em;
   font-weight: 600;
@@ -669,12 +682,18 @@ footer .footer-derechos .footer-derechos__list {
   align-items: center;
   flex-wrap: wrap;
 }
+.portada__contacto .atencion-publico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .portada__contacto .atencion-publico .contacto__atencion {
   font-size: 1.1em;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  width: 95%;
 }
 .portada__contacto .contacto__redes .contacto__list {
   list-style: none;
@@ -702,7 +721,7 @@ footer .footer-derechos .footer-derechos__list {
   padding: 0 0 0 10px;
 }
 .portada__contacto .contactos__formulario {
-  padding: 10px;
+  padding: 0.5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -718,14 +737,20 @@ footer .footer-derechos .footer-derechos__list {
   gap: 10px;
 }
 .portada__contacto .contactos__formulario .contacto__formulario-items .contacto__input {
-  padding: 10px;
+  padding: 0.5em;
+  width: 90%;
   border: 1px rgba(146, 146, 146, 0.634) solid;
   border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .portada__contacto .contactos__formulario .contacto__formulario-items .contacto__input:focus {
   outline: 0;
 }
 .portada__contacto .contactos__formulario .contacto__formulario-items .btn__contacto {
+  width: 30%;
   background-color: #fff;
   color: #BE8C63;
 }

@@ -1,12 +1,18 @@
 .conteiner__quienes-somos{
     @include padding-portadas;
-    .tittle__clauvana{
+    .conteiner-tittle{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .tittle__clauvana{
         padding-inline: .5em .5em;
         padding-bottom: 30px;
         font-size: 3em;
         font-weight: 600;
         @include centrar-row;
-    }
+        width: 70%;
+      }
+    }  
     .historia{
       .historia__clauvana{
         padding: 0 20px;

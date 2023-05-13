@@ -1,7 +1,11 @@
 .portada__contacto{
     @include padding-portadas;
     .conteiner__tittle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .tittle__contacto{
+            width: 70%;
             padding-bottom: 30px;
             font-size: 3em;
             font-weight: 600;
@@ -9,9 +13,13 @@
         }
     }
     .atencion-publico{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .contacto__atencion{
             font-size: 1.1em;
             @include centrar-row;
+            width: 95%;
         }
     }
     .contacto__redes{
@@ -40,20 +48,26 @@
         }
     }
     .contactos__formulario{
-        padding: 10px;
+        padding: .5em;
         @include centrar-column;
         .contacto__formulario-items{
             @include centrar-column;
             gap: 10px;
             .contacto__input{
-                padding: 10px;
+                padding: .5em;
+                width: 90%;
                 border: 1px rgba(146, 146, 146, 0.634) solid;
                 border-radius: 10px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: wrap;
             }
             .contacto__input:focus{
                 outline: 0;
             }
             .btn__contacto{
+                width: 30%;
                 background-color: #fff;
                 color: $color-header-secundario;
             }
