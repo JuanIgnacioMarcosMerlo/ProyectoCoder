@@ -3,7 +3,7 @@ footer{
         .footer-icons__list{
             list-style: none;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             gap: 30px;
@@ -20,7 +20,7 @@ footer{
             padding: 20px;
             list-style: none;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             gap: 40px;
@@ -93,3 +93,17 @@ footer{
         }
     }
 }
+@media (min-width:768px) {
+footer{
+        .footer-icons{
+            .footer-icons__list{
+                flex-direction: row;
+            }
+        }
+        .footer-nav{
+            .footer-nav__list{
+                flex-direction: row;
+            }
+        }
+    }
+}    

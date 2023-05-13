@@ -1,6 +1,5 @@
 .conteiner__quienes-somos{
-    padding-top: 170px;
-    padding-bottom: 30px;
+    @include padding-portadas;
     .tittle__clauvana{
         font-size: 3em;
         font-weight: 600;

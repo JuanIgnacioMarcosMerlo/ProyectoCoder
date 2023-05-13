@@ -90,3 +90,18 @@ header{
         }
     }
 }
+@media (min-width:1000px) {
+header{
+    .header{
+        .header-nav{
+            .header-nav__right{
+                .header-nav__search{
+                    .header-nav__search-input{
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
+}

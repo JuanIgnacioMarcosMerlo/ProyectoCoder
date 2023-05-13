@@ -1,5 +1,5 @@
 .portada-productos{
-    padding-top: 200px;
+    @include padding-portadas;
     .portada-productos__conteiner{
         padding:30px;
         @include centrar-row;

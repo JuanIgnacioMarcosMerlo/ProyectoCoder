@@ -11,3 +11,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
+@mixin padding-portadas{
+    padding-top:10em;
+    padding-bottom: 5em;
+}

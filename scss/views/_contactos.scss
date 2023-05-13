@@ -1,6 +1,5 @@
 .portada__contacto{
-    padding-top: 170px;
-    padding-bottom: 30px;
+    @include padding-portadas;
     .conteiner__tittle{
         .tittle__contacto{
             padding-bottom: 30px;
