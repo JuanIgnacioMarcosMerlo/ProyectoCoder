@@ -764,37 +764,40 @@ footer .footer-derechos .footer-derechos__list {
   padding-bottom: 5em;
 }
 .portada__producto-especifico .producto-especifico__conteiner {
+  padding-top: 1em;
+  height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 20px;
 }
 .portada__producto-especifico .producto-especifico__conteiner .producto-especifico__img {
-  height: 650px;
-  width: 40%;
+  height: 100%;
+  width: 95%;
 }
 .portada__producto-especifico .producto-especifico__conteiner .producto-especifico__img .producto-especifico-pic {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 5px;
 }
 .portada__producto-especifico .producto-especifico__conteiner .producto-especifico__img .producto-especifico-pic .img__producto {
-  height: 650px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
 .portada__producto-especifico .producto-especifico__conteiner .especificaciones {
-  height: 650px;
-  width: 40%;
+  height: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
   flex-wrap: wrap;
+  gap: 0.5em;
 }
 .portada__producto-especifico .producto-especifico__conteiner .especificaciones .nombre__prenda .prenda__titulo {
   font-size: 3em;
@@ -820,38 +823,40 @@ footer .footer-derechos .footer-derechos__list {
   font-size: 2.5em;
   font-weight: 600;
 }
-.portada__producto-especifico .producto-especifico__conteiner .especificaciones .coutas__prenda {
-  width: 100%;
+.portada__producto-especifico .producto-especifico__conteiner .especificaciones .cuotas__prenda {
+  width: 70%;
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
 }
-.portada__producto-especifico .producto-especifico__conteiner .especificaciones .coutas__prenda .img__credito {
-  height: 25px;
-  width: 25px;
+.portada__producto-especifico .producto-especifico__conteiner .especificaciones .cuotas__prenda .img__credito {
+  height: 30px;
+  width: 30px;
 }
-.portada__producto-especifico .producto-especifico__conteiner .especificaciones .coutas__prenda .txt__prenda .str__prenda {
+.portada__producto-especifico .producto-especifico__conteiner .especificaciones .cuotas__prenda .txt__prenda .str__prenda {
   color: #BE8C63;
 }
 .portada__producto-especifico .producto-especifico__conteiner .especificaciones .oferta__prenda {
+  width: 70%;
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
 }
 .portada__producto-especifico .producto-especifico__conteiner .especificaciones .oferta__prenda .img__dinero {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
 }
 .portada__producto-especifico .producto-especifico__conteiner .especificaciones .oferta__prenda .txt__prenda .str__prenda {
   color: #BE8C63;
 }
 .portada__producto-especifico .producto-especifico__conteiner .input__prenda {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
 }
 .portada__producto-especifico .producto-especifico__conteiner .input__prenda .input__color .form__color {
   display: flex;
@@ -887,22 +892,31 @@ footer .footer-derechos .footer-derechos__list {
   border-radius: 20px;
   border: 2px solid #BE8C63;
 }
-.portada__producto-especifico .producto-especifico__conteiner .input__cantidad .form__cantidad {
+.portada__producto-especifico .producto-especifico__conteiner .input__cantidad-prenda .form__cantidad {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5px;
 }
-.portada__producto-especifico .producto-especifico__conteiner .input__cantidad .form__cantidad .label__cantidad {
+.portada__producto-especifico .producto-especifico__conteiner .input__cantidad-prenda .form__cantidad .label__cantidad {
   font-size: 1em;
   font-weight: 600;
 }
-.portada__producto-especifico .producto-especifico__conteiner .input__cantidad .form__cantidad .input__cantidad {
+.portada__producto-especifico .producto-especifico__conteiner .input__cantidad-prenda .form__cantidad .input__cantidad {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  display: flex;
+  justify-content: center;
   padding: 5px 55px;
   background-color: #fff;
   border-radius: 20px;
   border: 2px solid #BE8C63;
+  outline: 0;
+}
+.portada__producto-especifico .producto-especifico__conteiner .agregar__carrito {
+  padding-top: 1em;
 }
 .portada__producto-especifico .producto-especifico__conteiner .agregar__carrito .agregar__carrito-form .agregar__carrito-btn {
   color: #BE8C63;
@@ -918,28 +932,33 @@ footer .footer-derechos .footer-derechos__list {
   color: #fff;
 }
 .portada__producto-especifico .producto-especifico__conteiner .descripcion__prenda .txt__descripcion {
-  padding-top: 50px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding-top: 1.5em;
   font-size: 1em;
   font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .otros__productos {
-  padding: 50px;
+  padding: 2em;
 }
 .otros__productos .otros__conteiner {
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 .otros__productos .otros__conteiner .otros__tittle {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   font-size: 2.5em;
   font-weight: 600;
 }
 .otros__productos .mas__productos {
-  padding: 20px;
+  padding: 1.5em 0 1.5em 0;
   width: 100%;
   height: 100%;
   display: grid;
@@ -1002,6 +1021,36 @@ footer .footer-derechos .footer-derechos__list {
 }
 .otros__productos .mas__productos .clothes__items .clothes__description .clothes__description-offer {
   padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .portada__producto-especifico .producto-especifico__conteiner {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .portada__producto-especifico .producto-especifico__conteiner .producto-especifico__img {
+    width: 50%;
+  }
+  .portada__producto-especifico .producto-especifico__conteiner .especificaciones {
+    height: 100%;
+    width: 40%;
+    align-items: flex-start;
+  }
+  .portada__producto-especifico .producto-especifico__conteiner .especificaciones .prenda_price .price {
+    justify-content: flex-start;
+  }
+  .portada__producto-especifico .producto-especifico__conteiner .especificaciones .cuotas__prenda {
+    justify-content: flex-start;
+  }
+  .portada__producto-especifico .producto-especifico__conteiner .especificaciones .oferta__prenda {
+    justify-content: flex-start;
+  }
+  .portada__producto-especifico .producto-especifico__conteiner .especificaciones .oferta__prenda .txt__prenda {
+    flex-wrap: wrap;
+  }
+  .portada__producto-especifico .producto-especifico__conteiner .especificaciones .input__prenda {
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
