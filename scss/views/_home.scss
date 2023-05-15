@@ -1,11 +1,9 @@
     .portada-principal{
         @include padding-portadas;
         .portada-principal__conteiner{
-            width: 100%;
-            height: 510px;
-            display: grid;
-            grid-template-columns: repeat(auto-fill , minmax(450px , 1fr));
-            grid-gap: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
             .portada-principal__primera-columna{
                 height: 510px;
                 width:100%;
@@ -17,7 +15,7 @@
                 }
                 .portada-principal__tittle-primera{
                     display: block;
-                    font-size: 3em;
+                    font-size: 2em;
                     font-weight: 900;
                     color: #fff;
                     position: absolute;
@@ -41,7 +39,7 @@
                     }
                     .portada-principal__tittle-segunda{
                         display: block;
-                        font-size: 3em;
+                        font-size: 2em;
                         font-weight: 900;
                         color: #fff;
                         position: absolute;
@@ -66,7 +64,7 @@
                         }
                         .portada-principal__tittle-tercera{
                             display: block;
-                            font-size: 3em;
+                            font-size: 2em;
                             font-weight: 900;
                             color: #fff;
                             position: absolute;
@@ -84,7 +82,7 @@
                         }
                         .portada-principal__tittle-cuarta{
                             display: block;
-                            font-size: 3em;
+                            font-size: 2em;
                             font-weight: 900;
                             color: #fff;
                             position: absolute;
@@ -111,9 +109,7 @@
             align-items: center;
         }
         .portada-principal__btn:hover{
-            border: 1px solid #1e1d1d;
-            color:#1e1d1d;
-            background-color: #fff;
+            background-color: $color-bg-btn-portada-principal;
         }
     }
     .clothes{
@@ -199,6 +195,7 @@
         .envio__items{
             @include centrar-column;
             .envio__img{
+                filter: invert(62%) sepia(24%) saturate(701%) hue-rotate(345deg) brightness(91%) contrast(86%);
                 height:120px;
                 width: 120px;
             }
@@ -249,10 +246,7 @@
             .seguinos__a{
                 text-decoration: none;
                 .btn__txt{
-                color: $color-header-secundario;
-                }
-                .btn__txt:hover{
-                color: #65656593;
+                    color: $color-header-secundario;
                 }
             }
         }
@@ -267,25 +261,19 @@
             justify-content: center;
             flex-wrap: wrap;
             .offer__txt{
-                font-size: 40px;
+                font-size: 3em;
                 font-weight:900;
             }
         }
         .offer__email{
-            width: 90%;
-            display: flex;
-            justify-content: center;
-            .offer__form{
-                .offer__input{
-                    padding: 10px;
-                    height: 20px;
-                    width: 260px;
-                    font-size: 1em;
-                    border-radius: 15px;
-                    border: 1px rgba(146, 146, 146, 0.634) solid;
-                }
-                .offer__input:focus{
-                    outline: 0;
+            padding: .5em 0 .5em 0;
+            .offer_form{
+                .offer__input-email{
+                    padding-left: .5em;
+                    border:#fff;
+                    width: 100%;
+                    outline:0;
+                    border-bottom: 1px solid #252424d3;
                 }
             }
         }
@@ -309,3 +297,35 @@
             }    
         }
     }
+
+@media (min-width:768px){
+    .portada-principal{
+        .portada-principal__conteiner{
+            flex-direction: row;
+            .portada-principal__primera-columna{
+                .portada-principal__tittle-primera{
+                    font-size: 3em;
+                }
+            }
+            .portada-principal__segunda-columna{
+                .portada-principal__segunda-columna-primera-fila{
+                    .portada-principal__tittle-segunda{
+                        font-size: 3em;
+                    }
+                }
+                .portada-principal__segunda-columna-segunda-fila{
+                    .portada-principal__segunda-columna-segunda-fila-primera{
+                        .portada-principal__tittle-tercera{
+                            font-size: 3em;
+                        }
+                    }
+                    .portada-principal__segunda-columna-segunda-fila-segunda{
+                        .portada-principal__tittle-cuarta{
+                            font-size: 3em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

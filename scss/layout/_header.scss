@@ -65,15 +65,17 @@ header{
                 gap: 10px;
                 .header-nav__search{
                     .header-nav__search-input{
+                        width: 40%;
                         display: none;
-                        background-color: $color-header-secundario;
-                        border-radius: 20px;
+                        background-color: $color-input-search;
                         padding: 5px 10px;
                         border: #000000;
                         color: #000000;
                     }
                     .header-nav__search-input:focus{
                         outline:0;
+                        border-bottom: 1px solid #000;
+                        width: 90%;
                     }
                 }
                 .header-nav__buy{
