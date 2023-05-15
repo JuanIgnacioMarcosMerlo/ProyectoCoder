@@ -25,6 +25,7 @@
                 }
             }
             .portada-principal__segunda-columna{
+                width: 100%;
                 display: flex;
                 flex-direction:column;
                 gap:10px;
@@ -303,11 +304,13 @@
         .portada-principal__conteiner{
             flex-direction: row;
             .portada-principal__primera-columna{
+                width: 55%;
                 .portada-principal__tittle-primera{
                     font-size: 3em;
                 }
             }
             .portada-principal__segunda-columna{
+                width: 75%;
                 .portada-principal__segunda-columna-primera-fila{
                     .portada-principal__tittle-segunda{
                         font-size: 3em;

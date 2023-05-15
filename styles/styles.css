@@ -326,6 +326,7 @@ footer .footer-derechos .footer-derechos__list {
   transform: translate(-50%, -50%);
 }
 .portada-principal .portada-principal__conteiner .portada-principal__segunda-columna {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -618,8 +619,14 @@ footer .footer-derechos .footer-derechos__list {
   .portada-principal .portada-principal__conteiner {
     flex-direction: row;
   }
+  .portada-principal .portada-principal__conteiner .portada-principal__primera-columna {
+    width: 55%;
+  }
   .portada-principal .portada-principal__conteiner .portada-principal__primera-columna .portada-principal__tittle-primera {
     font-size: 3em;
+  }
+  .portada-principal .portada-principal__conteiner .portada-principal__segunda-columna {
+    width: 75%;
   }
   .portada-principal .portada-principal__conteiner .portada-principal__segunda-columna .portada-principal__segunda-columna-primera-fila .portada-principal__tittle-segunda {
     font-size: 3em;
